@@ -16,16 +16,16 @@ class BasicTCPTopo(Topo):
         bottomRightSwitch = self.addSwitch('s3')
         bottomLeftSwitch = self.addSwitch('s4')
 
-        moreBWOpts = dict(bw='100k', delay='5ms', max_queue_size=20)
-        lessBWOpts = dict(bw='10k', delay='5ms', max_queue_size=20)
+        #moreBWOpts = dict(bw='100k', delay='5ms', max_queue_size=20)
+        #lessBWOpts = dict(bw='10k', delay='5ms', max_queue_size=20)
         
-        topLeftLink = self.addLink(sender, topLeftSwitch, **moreBWOpts)
-        topMidLink = self.addLink(topLeftSwitch, topRightSwitch, **lessBWOpts)
-        topRightLink = self.addLink(topRightSwitch, receiver, **moreBWOpts)
+        topLeftLink = self.addLink(sender, topLeftSwitch) #, **moreBWOpts)
+        topMidLink = self.addLink(topLeftSwitch, topRightSwitch) #, **lessBWOpts)
+        topRightLink = self.addLink(topRightSwitch, receiver) #, **moreBWOpts)
 
-        bottomRightLink = self.addLink(receiver, bottomRightSwitch, **moreBWOpts)
-        bottomMidLink = self.addLink(bottomRightSwitch, bottomLeftSwitch, **lessBWOpts)
-        bottomLeftLink = self.addLink(bottomLeftSwitch, sender, **moreBWOpts)
+        bottomRightLink = self.addLink(receiver, bottomRightSwitch) #, **moreBWOpts)
+        bottomMidLink = self.addLink(bottomRightSwitch, bottomLeftSwitch) #, **lessBWOpts)
+        bottomLeftLink = self.addLink(bottomLeftSwitch, sender) #, **moreBWOpts)
 
 def simpleTest():
     "Create and test a simple network"
