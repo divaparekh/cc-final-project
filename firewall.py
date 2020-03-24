@@ -27,5 +27,4 @@ class Firewall (EventMixin):
         log.debug("Firewall rules installed on %s", dpidToStr(event.dpid))
 
 def launch ():
-    print("HI FIREWALL")
     core.registerNew(Firewall)
