@@ -20,19 +20,24 @@ def treeTopo():
     s4 = net.addSwitch( 's4' )
     
     info( '*** Creating links\n' )
+    
+#    net.addLink( h1, s4)
+#    net.addLink( s4, s3)
+#    net.addLink( s3, h2)
+
     net.addLink( h1, s1 )
     net.addLink( s1, s2 )
-    net.addLink( s2, h2 )
+    net.addLink( s2, h2, intfName1='s2-h2', intfName2='h2-s2' )
     net.addLink( h2, s3 )
     net.addLink( s3, s4 )
-    net.addLink( s4, h1 )
-        
+    net.addLink( s4, h1, intfName1='s4-h1', intfName2='h1-s4' )
+    
     info( '*** Starting network\n')
     net.start()
     
     info( '*** Running CLI\n' )
     CLI( net )
-    
+ 
     info( '*** Stopping network' )
     net.stop()
     
