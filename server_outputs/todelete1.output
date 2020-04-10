@@ -1,0 +1,16 @@
+------------------------------------------------------------
+Server listening on UDP port 5001 with pid 4252
+Receiving 1000 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 50208
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS
+[  3] 0.00-5.00 sec  31.2 KBytes  51.2 Kbits/sec  136.657 ms    1/   32 (3.1%) 2386.459/19.235/4849.167/1487.045 ms    6 pps
+[  3] 0.00-5.00 sec  1 datagrams received out-of-order
+[  3] 5.00-10.00 sec  29.3 KBytes  48.0 Kbits/sec  155.855 ms    0/   30 (0%) 7476.719/4849.167/9621.902/1400.537 ms    6 pps
+[  3] 10.00-15.00 sec  29.3 KBytes  48.0 Kbits/sec  158.625 ms    0/   30 (0%) 12408.524/9621.902/14394.623/1400.533 ms    6 pps
+[  3] 15.00-20.00 sec  29.3 KBytes  48.0 Kbits/sec  234.585 ms    0/   30 (0%) 16967.223/14394.623/18223.936/1028.585 ms    6 pps
+[  3] 20.00-25.00 sec  29.3 KBytes  48.0 Kbits/sec  176.509 ms    0/   30 (0%) 20438.022/17277.963/22279.511/1467.686 ms    6 pps
+[  3] 25.00-30.00 sec  29.3 KBytes  48.0 Kbits/sec  194.586 ms    0/   30 (0%) 24325.234/22279.511/25189.675/811.047 ms    6 pps
+[  3] 0.00-30.10 sec   178 KBytes  48.4 Kbits/sec  194.586 ms    1/  182 (0.55%) 13496.787/19.235/25189.675/7427.771 ms    6 pps
+[  3] 0.00-30.10 sec  1 datagrams received out-of-order
