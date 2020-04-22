@@ -7,6 +7,8 @@ from mininet.cli import CLI
 from mininet.log import setLogLevel, info
 from mininet.link import TCLink
 
+import sys
+
 class Basic_Topo(Topo):
     #Two hosts with two switches in between and
     #three links to create bottleneck
@@ -20,9 +22,13 @@ class Basic_Topo(Topo):
         s2 = self.addSwitch('s2')
 
         info('*** Adding links\n')
-        self.addLink(h1, s1, bw=.2)#, max_queue_size=20)
-        self.addLink(s1, s2, bw=.05)
-        self.addLink(s2, h2, bw=.2)
+        
+        bw_high = float(sys.argv[1])
+        bw_low = float(sys.argv[2])
+
+        self.addLink(h1, s1, bw=bw_high)# , max_queue_size=100)
+        self.addLink(s1, s2, bw=bw_low)
+        self.addLink(s2, h2, bw=bw_high)
 
 def run_network():
     topo = Basic_Topo()
