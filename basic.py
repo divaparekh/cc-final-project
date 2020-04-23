@@ -17,6 +17,8 @@ class Basic_Topo(Topo):
         h1 = self.addHost('h1', ip='10.0.0.1', mac='00:00:00:00:00:01')
         h2 = self.addHost('h2', ip='10.0.0.2', mac='00:00:00:00:00:02')
         
+        h3 = self.addHost('h3', ip='10.0.0.3', mac='00:00:00:00:00:03')
+
         info('*** Adding switches\n')
         s1 = self.addSwitch('s1')
         s2 = self.addSwitch('s2')
