@@ -37,5 +37,5 @@ else
 
 fi
 
-sudo tc qdisc replace dev s1-eth2 root tbf rate .5mbit burst .5mbit latency 1000000ms
+sudo tc qdisc replace dev s1-eth2 root tbf rate .5mbit burst 32kbit latency 22000ms
 sudo tc qdisc show
