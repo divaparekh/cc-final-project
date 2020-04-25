@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ "$1" == "codel" ]
 then
 	sudo tc qdisc replace dev eth0 root codel

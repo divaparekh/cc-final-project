@@ -17,7 +17,7 @@ class Basic_Topo(Topo):
         h1 = self.addHost('h1', ip='10.0.0.1', mac='00:00:00:00:00:01')
         h2 = self.addHost('h2', ip='10.0.0.2', mac='00:00:00:00:00:02')
         
-        h3 = self.addHost('h3', ip='10.0.0.3', mac='00:00:00:00:00:03')
+        #h3 = self.addHost('h3', ip='10.0.0.3', mac='00:00:00:00:00:03')
 
         info('*** Adding switches\n')
         s1 = self.addSwitch('s1')
@@ -32,6 +32,9 @@ class Basic_Topo(Topo):
         self.addLink(s1, s2, bw=bw_low)
         self.addLink(s2, h2, bw=bw_high)
 
+        #self.addLink(h3, s1, bw=bw_high)
+        
+
 def run_network():
     topo = Basic_Topo()
     net = Mininet(topo, link=TCLink)
@@ -40,7 +43,7 @@ def run_network():
     print("Dumping host connections")
     dumpNodeConnections(net.hosts)
     
-    #info('*** Running CLI')
+    info('*** Running CLI')
     CLI(net)
 
     info('*** Stopping network')
