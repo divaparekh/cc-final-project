@@ -1,0 +1,159 @@
+------------------------------------------------------------
+Server listening on UDP port 5001 with pid 1775
+Receiving 300 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 54308
+[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 52124
+[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 59999
+[  6] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 41796
+[  7] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 54592
+[  8] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 54928
+[  9] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 42561
+[ 10] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44897
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS
+[  5] 0.00-5.00 sec   348 KBytes   570 Kbits/sec   0.306 ms  768/ 1956 (39%) 490.222/27.087/897.869/132.365 ms  239 pps
+[  5] 0.00-5.00 sec  7 datagrams received out-of-order
+[  6] 0.00-5.00 sec   330 KBytes   540 Kbits/sec   1.690 ms  829/ 1955 (42%) 487.765/41.661/897.645/132.921 ms  227 pps
+[  6] 0.00-5.00 sec  11 datagrams received out-of-order
+[  7] 0.00-5.00 sec   327 KBytes   535 Kbits/sec   4.432 ms  840/ 1955 (43%) 488.561/51.144/897.296/130.097 ms  226 pps
+[  7] 0.00-5.00 sec  18 datagrams received out-of-order
+[ 10] 0.00-5.00 sec   335 KBytes   550 Kbits/sec   0.310 ms  810/ 1955 (41%) 495.173/104.912/547.255/109.811 ms  238 pps
+[ 10] 0.00-5.00 sec  42 datagrams received out-of-order
+[  8] 0.00-5.00 sec   324 KBytes   531 Kbits/sec  19.874 ms  721/ 1827 (39%) 488.980/60.288/895.077/127.305 ms  224 pps
+[  8] 0.00-5.00 sec  22 datagrams received out-of-order
+[  9] 0.00-5.00 sec   323 KBytes   529 Kbits/sec  15.042 ms  826/ 1928 (43%) 491.815/81.319/873.389/120.394 ms  219 pps
+[  9] 0.00-5.00 sec  32 datagrams received out-of-order
+[  3] 0.00-5.00 sec   347 KBytes   568 Kbits/sec  22.281 ms  728/ 1911 (38%) 488.865/16.696/899.835/134.117 ms  225 pps
+[  3] 0.00-5.00 sec  2 datagrams received out-of-order
+[  4] 0.00-5.00 sec   349 KBytes   572 Kbits/sec  22.219 ms  759/ 1950 (39%) 490.194/21.962/898.362/133.504 ms  223 pps
+[  4] 0.00-5.00 sec  4 datagrams received out-of-order
+[SUM] 0.00-5.00 sec  2682 KBytes  4395 Kbits/sec 1840 pps
+[SUM] 0.00-5.00 sec  138 datagrams received out-of-order
+[  3] 5.00-10.00 sec   337 KBytes   552 Kbits/sec   0.494 ms 1079/ 2230 (48%) 547.625/535.696/900.288/25.495 ms  242 pps
+[  4] 5.00-10.00 sec   328 KBytes   538 Kbits/sec   0.552 ms 1072/ 2192 (49%) 548.069/536.727/897.036/25.524 ms  240 pps
+[  5] 5.00-10.00 sec   327 KBytes   536 Kbits/sec   0.421 ms 1070/ 2186 (49%) 548.314/537.262/895.623/27.637 ms  223 pps
+[  6] 5.00-10.00 sec   327 KBytes   536 Kbits/sec  40.325 ms  918/ 2034 (45%) 547.002/535.579/897.852/27.563 ms  223 pps
+[  9] 5.00-10.00 sec   342 KBytes   561 Kbits/sec   0.365 ms 1049/ 2217 (47%) 547.929/536.131/883.369/18.641 ms  241 pps
+[  7] 5.00-10.00 sec   332 KBytes   543 Kbits/sec  22.198 ms  920/ 2052 (45%) 547.193/536.137/895.582/27.095 ms  224 pps
+[ 10] 5.00-10.00 sec   342 KBytes   560 Kbits/sec  13.386 ms  977/ 2143 (46%) 546.257/536.860/858.320/11.279 ms  228 pps
+[  8] 5.00-10.00 sec   342 KBytes   561 Kbits/sec  19.769 ms 1066/ 2235 (48%) 547.582/536.199/872.539/23.305 ms  229 pps
+[SUM] 5.00-10.00 sec  2677 KBytes  4386 Kbits/sec 1922 pps
+[  3] 10.00-15.00 sec   325 KBytes   532 Kbits/sec   0.662 ms 1074/ 2183 (49%) 547.638/539.130/900.282/28.060 ms  222 pps
+[  4] 10.00-15.00 sec   325 KBytes   533 Kbits/sec   1.361 ms 1071/ 2182 (49%) 548.045/539.410/896.884/27.684 ms  223 pps
+[  5] 10.00-15.00 sec   327 KBytes   536 Kbits/sec   1.877 ms 1066/ 2182 (49%) 548.267/539.792/898.024/27.499 ms  223 pps
+[  9] 10.00-15.00 sec   326 KBytes   534 Kbits/sec   0.302 ms 1067/ 2179 (49%) 547.410/527.380/834.374/21.595 ms  223 pps
+[ 10] 10.00-15.00 sec   347 KBytes   568 Kbits/sec   0.334 ms 1047/ 2231 (47%) 544.724/527.000/800.672/12.902 ms  242 pps
+[  6] 10.00-15.00 sec   342 KBytes   560 Kbits/sec  22.406 ms 1080/ 2247 (48%) 545.386/535.310/897.998/27.409 ms  227 pps
+[  7] 10.00-15.00 sec   342 KBytes   561 Kbits/sec  21.929 ms 1086/ 2255 (48%) 545.470/526.024/895.442/27.334 ms  227 pps
+[  8] 10.00-15.00 sec   342 KBytes   561 Kbits/sec  20.068 ms 1062/ 2231 (48%) 545.707/525.911/883.164/25.327 ms  229 pps
+[SUM] 10.00-15.00 sec  2677 KBytes  4386 Kbits/sec 1829 pps
+[  3] 15.00-20.00 sec   341 KBytes   558 Kbits/sec   0.411 ms 1023/ 2186 (47%) 547.412/534.508/900.169/27.126 ms  233 pps
+[  4] 15.00-20.00 sec   333 KBytes   546 Kbits/sec   7.677 ms 1049/ 2186 (48%) 547.745/529.166/896.604/27.424 ms  227 pps
+[  8] 15.00-20.00 sec   336 KBytes   551 Kbits/sec   0.295 ms 1068/ 2216 (48%) 546.358/534.648/891.881/23.909 ms  242 pps
+[ 10] 15.00-20.00 sec   340 KBytes   558 Kbits/sec   0.297 ms 1018/ 2180 (47%) 545.596/535.048/798.347/13.447 ms  233 pps
+[  5] 15.00-20.00 sec   327 KBytes   536 Kbits/sec  22.343 ms  920/ 2037 (45%) 548.077/529.061/897.734/27.694 ms  223 pps
+[  9] 15.00-20.00 sec   314 KBytes   515 Kbits/sec  21.688 ms 1010/ 2083 (48%) 548.301/530.060/885.960/24.792 ms  210 pps
+[  6] 15.00-20.00 sec   342 KBytes   561 Kbits/sec  22.357 ms 1050/ 2219 (47%) 546.031/530.104/898.873/27.177 ms  230 pps
+[  7] 15.00-20.00 sec   342 KBytes   561 Kbits/sec  22.225 ms 1061/ 2230 (48%) 546.230/534.016/895.472/26.960 ms  229 pps
+[SUM] 15.00-20.00 sec  2677 KBytes  4386 Kbits/sec 1827 pps
+[  3] 20.00-25.00 sec   342 KBytes   560 Kbits/sec   0.519 ms 1018/ 2184 (47%) 546.745/526.303/895.792/26.882 ms  233 pps
+[  4] 20.00-25.00 sec   340 KBytes   558 Kbits/sec  12.062 ms 1022/ 2184 (47%) 547.173/526.847/897.592/27.036 ms  232 pps
+[  7] 20.00-25.00 sec   331 KBytes   542 Kbits/sec   0.333 ms 1072/ 2202 (49%) 546.932/526.777/899.432/25.410 ms  241 pps
+[  8] 20.00-25.00 sec   323 KBytes   530 Kbits/sec   0.483 ms 1080/ 2184 (49%) 547.334/527.292/890.616/26.801 ms  221 pps
+[  5] 20.00-25.00 sec   342 KBytes   561 Kbits/sec  21.659 ms 1055/ 2224 (47%) 547.812/537.821/897.734/26.962 ms  230 pps
+[ 10] 20.00-25.00 sec   313 KBytes   513 Kbits/sec  19.748 ms 1037/ 2105 (49%) 547.514/530.100/857.777/22.088 ms  208 pps
+[  9] 20.00-25.00 sec   342 KBytes   561 Kbits/sec  16.641 ms 1096/ 2265 (48%) 548.007/538.296/893.204/24.966 ms  229 pps
+[  6] 20.00-25.00 sec   342 KBytes   561 Kbits/sec  21.207 ms 1057/ 2226 (47%) 547.575/532.002/895.951/26.825 ms  230 pps
+[SUM] 20.00-25.00 sec  2677 KBytes  4386 Kbits/sec 1828 pps
+[  3] 25.00-30.00 sec   336 KBytes   550 Kbits/sec   1.328 ms 1038/ 2184 (48%) 547.480/537.452/898.702/27.332 ms  229 pps
+[  3] 0.00-30.00 sec  2027 KBytes   553 Kbits/sec   1.328 ms 5960/12878 (46%) 536.926/16.696/900.288/64.448 ms  230 pps
+[  3] 0.00-30.00 sec  2 datagrams received out-of-order
+[  6] 25.00-30.00 sec   334 KBytes   547 Kbits/sec   0.386 ms 1058/ 2197 (48%) 547.549/539.936/895.376/25.295 ms  243 pps
+[  7] 25.00-30.00 sec   335 KBytes   548 Kbits/sec   0.473 ms 1042/ 2184 (48%) 547.867/540.040/891.715/26.927 ms  228 pps
+[  9] 25.00-30.00 sec   333 KBytes   545 Kbits/sec   0.269 ms 1071/ 2207 (49%) 547.765/539.406/895.117/23.523 ms  237 pps
+[ 10] 25.00-30.00 sec   343 KBytes   562 Kbits/sec   0.379 ms 1093/ 2263 (48%) 546.614/540.059/857.777/10.563 ms  240 pps
+[ 11] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 54308
+[ 11] 0.00-5.00 sec  0.29 KBytes  0.48 Kbits/sec   0.000 ms 12889/12890 (1e+02%) 545.518/545.518/545.518/ 0.000 ms  481 pps
+[ 11] 5.00-10.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[ 11] 10.00-15.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[ 11] 15.00-20.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[ 11] 20.00-25.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[ 11] 25.00-30.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  6] 0.00-30.05 sec  2023 KBytes   552 Kbits/sec   0.351 ms 5992/12898 (46%) 536.546/41.661/898.873/62.804 ms  229 pps
+[  6] 0.00-30.05 sec  11 datagrams received out-of-order
+[  7] 0.00-30.07 sec  2018 KBytes   550 Kbits/sec   0.461 ms 6021/12908 (47%) 536.763/51.144/899.432/61.517 ms  229 pps
+[  7] 0.00-30.07 sec  18 datagrams received out-of-order
+[  4] 25.00-30.00 sec   336 KBytes   551 Kbits/sec  22.505 ms  914/ 2062 (44%) 547.357/537.992/899.955/27.511 ms  226 pps
+[  4] 0.00-30.08 sec  2012 KBytes   548 Kbits/sec  22.505 ms 5887/12756 (46%) 537.258/21.962/899.955/64.477 ms  228 pps
+[  4] 0.00-30.08 sec  4 datagrams received out-of-order
+[  8] 25.00-30.00 sec   319 KBytes   522 Kbits/sec  21.401 ms  984/ 2072 (47%) 548.433/538.458/888.248/26.656 ms  214 pps
+[  8] 0.00-30.10 sec  1990 KBytes   542 Kbits/sec  28.143 ms 6128/12919 (47%) 537.062/60.288/895.077/60.157 ms  225 pps
+[  8] 0.00-30.10 sec  22 datagrams received out-of-order
+[  3] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 52124
+[  3] 0.00-5.00 sec  0.29 KBytes  0.48 Kbits/sec   0.000 ms 12921/12922 (1e+02%) 546.048/546.048/546.048/ 0.000 ms  380 pps
+[  3] 5.00-10.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  3] 10.00-15.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  3] 15.00-20.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  3] 20.00-25.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  3] 25.00-30.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 54592
+[  4] 0.00-5.00 sec  0.29 KBytes  0.48 Kbits/sec   0.000 ms 12923/12924 (1e+02%) 546.369/546.369/546.369/ 0.000 ms  142 pps
+[  4] 5.00-10.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  4] 10.00-15.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  4] 15.00-20.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  4] 20.00-25.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  4] 25.00-30.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  7] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 54928
+[  7] 0.00-5.00 sec  0.29 KBytes  0.48 Kbits/sec   0.000 ms 12931/12932 (1e+02%) 546.149/546.149/546.149/ 0.000 ms  474 pps
+[  7] 5.00-10.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  7] 10.00-15.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  7] 15.00-20.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  7] 20.00-25.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  7] 25.00-30.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  5] 25.00-30.00 sec   342 KBytes   561 Kbits/sec  22.165 ms 1040/ 2209 (47%) 547.575/538.099/897.592/27.007 ms  231 pps
+[SUM] 25.00-30.00 sec  2677 KBytes  4386 Kbits/sec 1827 pps
+[  5] 0.00-30.16 sec  2014 KBytes   547 Kbits/sec  22.165 ms 5919/12794 (46%) 537.521/27.087/898.024/64.121 ms  227 pps
+[  5] 0.00-30.16 sec  7 datagrams received out-of-order
+[  8] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 59999
+[  8] 0.00-5.00 sec  0.29 KBytes  0.48 Kbits/sec   0.000 ms 12955/12956 (1e+02%) 546.499/546.499/546.499/ 0.000 ms  476 pps
+[  8] 5.00-10.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  8] 10.00-15.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  8] 15.00-20.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  8] 20.00-25.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  8] 25.00-30.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[ 10] 0.00-30.19 sec  2027 KBytes   550 Kbits/sec   0.371 ms 6040/12960 (47%) 537.218/104.912/858.320/50.194 ms  229 pps
+[ 10] 0.00-30.19 sec  42 datagrams received out-of-order
+[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44897
+[  5] 0.00-5.00 sec  0.29 KBytes  0.48 Kbits/sec   0.000 ms 12991/12992 (1e+02%) 546.727/546.727/546.727/ 0.000 ms  470 pps
+[  5] 5.00-10.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  5] 10.00-15.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  5] 15.00-20.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  5] 20.00-25.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  5] 25.00-30.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  9] 0.00-30.41 sec  1990 KBytes   536 Kbits/sec  18.418 ms 6137/12930 (47%) 538.296/81.319/895.117/56.684 ms  223 pps
+[  9] 0.00-30.41 sec  32 datagrams received out-of-order
+[SUM] 0.00-30.41 sec  16103 KBytes  4338 Kbits/sec 1826 pps
+[SUM] 0.00-30.41 sec  138 datagrams received out-of-order
+[ 10] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 42561
+[ 10] 0.00-5.00 sec  0.29 KBytes  0.48 Kbits/sec   0.000 ms 13061/13062 (1e+02%) 546.811/546.811/546.811/ 0.000 ms  315 pps
+[ 10] 5.00-10.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[ 10] 10.00-15.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[ 10] 15.00-20.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[ 10] 20.00-25.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[ 10] 25.00-30.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  6] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 41796
+[  6] 0.00-5.00 sec  0.29 KBytes  0.48 Kbits/sec   0.000 ms 12909/12910 (1e+02%) 547.079/547.079/547.079/ 0.000 ms -13158 pps
+[  6] 5.00-10.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  6] 10.00-15.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  6] 15.00-20.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  6] 20.00-25.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  6] 25.00-30.00 sec  0.00 KBytes  0.00 Kbits/sec   0.000 ms    0/    0 (0%) -/-/-/- ms    0 pps
+[  4] 0.00-30.53 sec  10.8 KBytes  2.91 Kbits/sec  20.523 ms 13072/13109 (1e+02%) 555.678/545.379/885.771/106.785 ms    1 pps
+[  8] 0.00-30.53 sec  44.5 KBytes  11.9 Kbits/sec   0.329 ms 12956/13108 (99%) 544.188/538.915/547.094/44.533 ms    4 pps
+[  5] 0.00-30.53 sec  26.4 KBytes  7.07 Kbits/sec   0.515 ms 13019/13109 (99%) 543.983/539.835/547.191/57.997 ms    2 pps
+[  6] 0.00-30.53 sec  13.8 KBytes  3.69 Kbits/sec   0.403 ms 13061/13108 (1e+02%) 546.120/545.376/547.214/80.664 ms    1 pps
+[ 11] 0.00-30.53 sec  29.6 KBytes  7.94 Kbits/sec  32.869 ms 12891/12992 (99%) 547.606/519.517/819.469/61.117 ms    3 pps
+[  3] 0.00-30.54 sec  46.3 KBytes  12.4 Kbits/sec  15.046 ms 12923/13081 (99%) 543.168/441.397/620.937/45.554 ms    5 pps
+[ 10] 0.00-30.53 sec  8.79 KBytes  2.36 Kbits/sec   0.000 ms 13079/13109 (0%) -/-/-/- ms    0 pps
+[  7] 0.00-30.54 sec  44.2 KBytes  11.9 Kbits/sec  13.361 ms 12945/13096 (99%) 543.356/405.378/588.166/47.570 ms    4 pps
