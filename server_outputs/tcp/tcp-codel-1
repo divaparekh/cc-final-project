@@ -1,0 +1,12 @@
+------------------------------------------------------------
+Server listening on TCP port 5001 with pid 8419
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 33492
+[ ID] Interval        Transfer    Bandwidth       Reads   Dist(bin=0.0K)
+[  4] 0.00-5.00 sec  2922 KBytes  4787 Kbits/sec  10331    0:0:4:116:0:807:88:9315
+[  4] 5.00-10.00 sec  2919 KBytes  4782 Kbits/sec  10320    0:0:0:147:0:761:101:9311
+[  4] 10.00-15.00 sec  2919 KBytes  4782 Kbits/sec  10320    0:0:0:145:0:764:101:9310
+[  4] 15.00-20.00 sec  2919 KBytes  4782 Kbits/sec  10320    0:0:0:147:0:761:101:9311
+[  4] 20.00-25.00 sec  2919 KBytes  4782 Kbits/sec  10320    0:0:0:147:0:761:101:9311
+[  4] 0.00-27.15 sec  15849 KBytes  4783 Kbits/sec  56041    1:0:4:766:0:4180:536:50554

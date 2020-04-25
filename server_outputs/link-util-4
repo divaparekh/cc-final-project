@@ -1,0 +1,32 @@
+------------------------------------------------------------
+Server listening on UDP port 5001 with pid 4154
+Receiving 300 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 50888
+[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 50383
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS
+[  3] 0.00-5.00 sec   642 KBytes  1052 Kbits/sec   0.004 ms    5/ 2192 (0.23%)  0.072/ 0.006/28.650/ 1.167 ms  438 pps
+[  3] 0.00-5.00 sec  5 datagrams received out-of-order
+[  4] 0.00-5.00 sec   642 KBytes  1052 Kbits/sec   0.005 ms   15/ 2192 (0.68%)  0.271/ 0.005/53.521/ 3.171 ms  440 pps
+[  4] 0.00-5.00 sec  15 datagrams received out-of-order
+[SUM] 0.00-5.00 sec  1284 KBytes  2104 Kbits/sec  877 pps
+[SUM] 0.00-5.00 sec  20 datagrams received out-of-order
+[  3] 5.00-10.00 sec   640 KBytes  1049 Kbits/sec   0.003 ms    0/ 2185 (0%)  0.015/ 0.006/ 0.118/ 0.006 ms  437 pps
+[  4] 5.00-10.00 sec   640 KBytes  1049 Kbits/sec   0.004 ms    0/ 2185 (0%)  0.014/ 0.006/ 0.040/ 0.005 ms  437 pps
+[SUM] 5.00-10.00 sec  1280 KBytes  2098 Kbits/sec  874 pps
+[  3] 10.00-15.00 sec   640 KBytes  1048 Kbits/sec   0.003 ms    0/ 2184 (0%)  0.015/ 0.006/ 0.072/ 0.006 ms  437 pps
+[  4] 10.00-15.00 sec   640 KBytes  1048 Kbits/sec   0.003 ms    0/ 2184 (0%)  0.013/ 0.006/ 0.041/ 0.006 ms  437 pps
+[SUM] 10.00-15.00 sec  1280 KBytes  2097 Kbits/sec  874 pps
+[  3] 15.00-20.00 sec   640 KBytes  1049 Kbits/sec   0.006 ms    0/ 2185 (0%)  0.014/ 0.005/ 0.054/ 0.006 ms  437 pps
+[  4] 15.00-20.00 sec   640 KBytes  1049 Kbits/sec   0.005 ms    0/ 2185 (0%)  0.014/ 0.005/ 0.052/ 0.006 ms  437 pps
+[SUM] 15.00-20.00 sec  1280 KBytes  2098 Kbits/sec  874 pps
+[  3] 20.00-25.00 sec   640 KBytes  1048 Kbits/sec   0.004 ms    0/ 2184 (0%)  0.016/ 0.006/ 0.053/ 0.006 ms  437 pps
+[  4] 20.00-25.00 sec   640 KBytes  1048 Kbits/sec   0.004 ms    0/ 2184 (0%)  0.016/ 0.006/ 0.125/ 0.006 ms  437 pps
+[SUM] 20.00-25.00 sec  1280 KBytes  2097 Kbits/sec  874 pps
+[  3] 0.00-29.99 sec  3841 KBytes  1049 Kbits/sec   0.005 ms    5/13109 (0.038%)  0.025/ 0.005/28.650/ 0.478 ms  437 pps
+[  3] 0.00-29.99 sec  5 datagrams received out-of-order
+[  4] 0.00-29.99 sec  3841 KBytes  1049 Kbits/sec   0.004 ms   15/13109 (0.11%)  0.057/ 0.005/53.521/ 1.300 ms  437 pps
+[  4] 0.00-29.99 sec  15 datagrams received out-of-order
+[SUM] 0.00-29.99 sec  7681 KBytes  2098 Kbits/sec  874 pps
+[SUM] 0.00-29.99 sec  20 datagrams received out-of-order

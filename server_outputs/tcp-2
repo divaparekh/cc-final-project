@@ -1,0 +1,60 @@
+------------------------------------------------------------
+Server listening on TCP port 5001 with pid 6275
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 33420
+[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 33422
+[  6] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 33426
+[  7] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 33428
+[  8] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 33424
+[  9] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 33430
+[ ID] Interval        Transfer    Bandwidth       Reads   Dist(bin=0.0K)
+[  4] 0.00-5.00 sec  52.9 KBytes  86.7 Kbits/sec  187    0:0:0:0:0:16:5:165
+[  9] 0.00-5.00 sec  62.5 KBytes   102 Kbits/sec  221    0:0:0:0:0:19:6:195
+[  6] 0.00-5.00 sec  41.6 KBytes  68.1 Kbits/sec  147    0:0:0:0:0:12:5:129
+[  7] 0.00-5.00 sec  41.6 KBytes  68.1 Kbits/sec  147    0:0:0:0:0:12:5:129
+[  5] 0.00-5.00 sec  52.9 KBytes  86.7 Kbits/sec  187    0:0:0:0:0:16:5:165
+[  8] 0.00-5.00 sec  41.6 KBytes  68.1 Kbits/sec  147    0:0:0:0:0:12:5:129
+[SUM] 0.00-5.00 sec   293 KBytes   480 Kbits/sec  1036    0:0:0:0:0:87:31:912
+[  8] 5.00-10.00 sec  46.7 KBytes  76.5 Kbits/sec  165    0:0:0:0:0:16:1:148
+[  4] 5.00-10.00 sec  42.4 KBytes  69.5 Kbits/sec  150    0:0:0:0:0:14:2:134
+[  5] 5.00-10.00 sec  41.0 KBytes  67.2 Kbits/sec  145    0:0:0:0:0:14:1:130
+[  9] 5.00-10.00 sec  62.2 KBytes   102 Kbits/sec  220    0:0:0:0:0:20:4:196
+[  6] 5.00-10.00 sec  49.5 KBytes  81.1 Kbits/sec  175    0:0:0:0:0:17:1:157
+[  7] 5.00-10.00 sec  49.5 KBytes  81.1 Kbits/sec  175    0:0:0:0:0:17:1:157
+[SUM] 5.00-10.00 sec   291 KBytes   477 Kbits/sec  1030    0:0:0:0:0:98:10:922
+[  5] 10.00-15.00 sec  49.5 KBytes  81.1 Kbits/sec  175    0:0:0:0:0:17:1:157
+[  9] 10.00-15.00 sec  58.0 KBytes  95.0 Kbits/sec  205    0:0:0:0:0:19:3:183
+[  6] 10.00-15.00 sec  43.8 KBytes  71.8 Kbits/sec  155    0:0:0:0:0:14:3:138
+[  7] 10.00-15.00 sec  42.4 KBytes  69.5 Kbits/sec  150    0:0:0:0:0:14:2:134
+[  8] 10.00-15.00 sec  39.6 KBytes  64.9 Kbits/sec  140    0:0:0:0:0:13:2:125
+[  4] 10.00-15.00 sec  59.4 KBytes  97.3 Kbits/sec  210    0:0:0:0:0:19:4:187
+[SUM] 10.00-15.00 sec   293 KBytes   480 Kbits/sec  1035    0:0:0:0:0:96:15:924
+[  8] 15.00-20.00 sec  33.9 KBytes  55.6 Kbits/sec  120    0:0:0:0:0:12:0:108
+[  7] 15.00-20.00 sec  53.7 KBytes  88.0 Kbits/sec  190    0:0:0:0:0:19:0:171
+[  9] 15.00-20.00 sec  56.6 KBytes  92.7 Kbits/sec  200    0:0:0:0:0:20:0:180
+[  4] 15.00-20.00 sec  42.4 KBytes  69.5 Kbits/sec  150    0:0:0:0:0:15:0:135
+[  5] 15.00-20.00 sec  46.7 KBytes  76.5 Kbits/sec  165    0:0:0:0:0:16:1:148
+[  6] 15.00-20.00 sec  58.0 KBytes  95.0 Kbits/sec  205    0:0:0:0:0:20:1:184
+[SUM] 15.00-20.00 sec   291 KBytes   477 Kbits/sec  1030    0:0:0:0:0:102:2:926
+[  6] 20.00-25.00 sec  35.4 KBytes  57.9 Kbits/sec  125    0:0:0:0:0:12:1:112
+[  7] 20.00-25.00 sec  32.5 KBytes  53.3 Kbits/sec  115    0:0:0:0:0:11:1:103
+[  8] 20.00-25.00 sec  49.5 KBytes  81.1 Kbits/sec  175    0:0:0:0:0:16:3:156
+[  4] 20.00-25.00 sec  55.1 KBytes  90.4 Kbits/sec  195    0:0:0:0:0:18:3:174
+[  5] 20.00-25.00 sec  46.7 KBytes  76.5 Kbits/sec  165    0:0:0:0:0:16:1:148
+[  9] 20.00-25.00 sec  73.5 KBytes   120 Kbits/sec  260    0:0:0:0:0:25:2:233
+[SUM] 20.00-25.00 sec   293 KBytes   480 Kbits/sec  1035    0:0:0:0:0:98:11:926
+[  5] 25.00-30.00 sec  42.4 KBytes  69.5 Kbits/sec  150    0:0:0:0:0:14:2:134
+[  5] 0.00-30.01 sec   280 KBytes  76.4 Kbits/sec  989    1:0:0:0:0:93:11:884
+[  8] 25.00-30.00 sec  43.8 KBytes  71.8 Kbits/sec  155    0:0:0:0:0:15:1:139
+[  8] 0.00-30.25 sec   256 KBytes  69.2 Kbits/sec  904    1:0:0:0:0:84:12:807
+[  4] 25.00-30.00 sec  55.1 KBytes  90.4 Kbits/sec  195    0:0:0:0:0:19:1:175
+[  4] 0.00-30.40 sec   308 KBytes  83.0 Kbits/sec  1089    1:0:0:0:0:101:15:972
+[  6] 25.00-30.00 sec  29.7 KBytes  48.7 Kbits/sec  105    0:0:0:0:0:10:1:94
+[  6] 0.00-30.54 sec   259 KBytes  69.3 Kbits/sec  914    1:0:0:0:0:85:12:816
+[  7] 25.00-30.00 sec  43.8 KBytes  71.8 Kbits/sec  155    0:0:0:0:0:15:1:139
+[  7] 0.00-30.88 sec   264 KBytes  70.1 Kbits/sec  934    1:0:0:0:0:88:10:835
+[  9] 25.00-30.00 sec  74.9 KBytes   123 Kbits/sec  265    0:0:0:0:0:26:1:238
+[SUM] 25.00-30.00 sec   290 KBytes   475 Kbits/sec  1025    0:0:0:0:0:99:7:919
+[  9] 0.00-31.80 sec   388 KBytes   100 Kbits/sec  1373    1:0:0:0:0:129:16:1227
+[SUM] 0.00-31.80 sec  1755 KBytes   452 Kbits/sec  6203    6:0:0:0:0:580:76:5541
