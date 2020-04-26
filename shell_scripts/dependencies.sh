@@ -7,6 +7,7 @@ pip3 install pandas
 pip3 install matplotlib
 cd cc-final-project
 pip3 install jupyter
+wget http://www.grid.unina.it/software/ITG/codice/D-ITG-2.8.1-r1023-src.zip
 
 # Mininet run lines go here
 cd ..

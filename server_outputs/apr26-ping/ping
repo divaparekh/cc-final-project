@@ -1,0 +1,306 @@
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 300 byte datagrams, IPG target: 4800.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  8] local 10.0.0.1 port 58592 connected with 10.0.0.2 port 5001
+[  3] local 10.0.0.1 port 54903 connected with 10.0.0.2 port 5001
+[  4] local 10.0.0.1 port 40291 connected with 10.0.0.2 port 5001
+[  5] local 10.0.0.1 port 49090 connected with 10.0.0.2 port 5001
+[  6] local 10.0.0.1 port 57733 connected with 10.0.0.2 port 5001
+[  7] local 10.0.0.1 port 51408 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  8]  0.0- 5.0 sec   306 KBytes   501 Kbits/sec
+[  3]  0.0- 5.0 sec   306 KBytes   501 Kbits/sec
+[  4]  0.0- 5.0 sec   306 KBytes   501 Kbits/sec
+[  5]  0.0- 5.0 sec   306 KBytes   501 Kbits/sec
+[  6]  0.0- 5.0 sec   306 KBytes   501 Kbits/sec
+[  7]  0.0- 5.0 sec   306 KBytes   501 Kbits/sec
+[SUM]  0.0- 5.0 sec  1833 KBytes  3004 Kbits/sec
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+[  8]  5.0-10.0 sec   305 KBytes   500 Kbits/sec
+[  3]  5.0-10.0 sec   305 KBytes   500 Kbits/sec
+[  4]  5.0-10.0 sec   305 KBytes   500 Kbits/sec
+[  5]  5.0-10.0 sec   305 KBytes   500 Kbits/sec
+[  6]  5.0-10.0 sec   305 KBytes   500 Kbits/sec
+[  7]  5.0-10.0 sec   305 KBytes   500 Kbits/sec
+[SUM]  5.0-10.0 sec  1832 KBytes  3001 Kbits/sec
+[  8] 10.0-15.0 sec   305 KBytes   500 Kbits/sec
+[  3] 10.0-15.0 sec   305 KBytes   500 Kbits/sec
+[  4] 10.0-15.0 sec   305 KBytes   500 Kbits/sec
+[  5] 10.0-15.0 sec   305 KBytes   500 Kbits/sec
+[  6] 10.0-15.0 sec   305 KBytes   500 Kbits/sec
+[  7] 10.0-15.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 10.0-15.0 sec  1830 KBytes  2998 Kbits/sec
+[  8] 15.0-20.0 sec   305 KBytes   500 Kbits/sec
+[  3] 15.0-20.0 sec   305 KBytes   500 Kbits/sec
+[  4] 15.0-20.0 sec   305 KBytes   500 Kbits/sec
+[  5] 15.0-20.0 sec   305 KBytes   500 Kbits/sec
+[  6] 15.0-20.0 sec   305 KBytes   500 Kbits/sec
+[  7] 15.0-20.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 15.0-20.0 sec  1832 KBytes  3001 Kbits/sec
+[  8] 20.0-25.0 sec   305 KBytes   500 Kbits/sec
+[  3] 20.0-25.0 sec   305 KBytes   500 Kbits/sec
+[  4] 20.0-25.0 sec   305 KBytes   500 Kbits/sec
+[  5] 20.0-25.0 sec   305 KBytes   500 Kbits/sec
+[  6] 20.0-25.0 sec   305 KBytes   500 Kbits/sec
+[  7] 20.0-25.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 20.0-25.0 sec  1832 KBytes  3001 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=22074 ms
+[  8] 25.0-30.0 sec   305 KBytes   500 Kbits/sec
+[  3] 25.0-30.0 sec   305 KBytes   500 Kbits/sec
+[  4] 25.0-30.0 sec   305 KBytes   500 Kbits/sec
+[  5] 25.0-30.0 sec   305 KBytes   500 Kbits/sec
+[  6] 25.0-30.0 sec   305 KBytes   500 Kbits/sec
+[  7] 25.0-30.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 25.0-30.0 sec  1830 KBytes  2998 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=22054 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=22055 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=22061 ms
+[  8] 30.0-35.0 sec   305 KBytes   500 Kbits/sec
+[  3] 30.0-35.0 sec   305 KBytes   500 Kbits/sec
+[  4] 30.0-35.0 sec   305 KBytes   500 Kbits/sec
+[  5] 30.0-35.0 sec   305 KBytes   500 Kbits/sec
+[  6] 30.0-35.0 sec   305 KBytes   500 Kbits/sec
+[  7] 30.0-35.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 30.0-35.0 sec  1832 KBytes  3001 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=7 ttl=64 time=22061 ms
+64 bytes from 10.0.0.2: icmp_seq=8 ttl=64 time=22056 ms
+[  8] 35.0-40.0 sec   305 KBytes   500 Kbits/sec
+[  3] 35.0-40.0 sec   305 KBytes   500 Kbits/sec
+[  4] 35.0-40.0 sec   305 KBytes   500 Kbits/sec
+[  5] 35.0-40.0 sec   305 KBytes   500 Kbits/sec
+[  6] 35.0-40.0 sec   305 KBytes   500 Kbits/sec
+[  7] 35.0-40.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 35.0-40.0 sec  1832 KBytes  3001 Kbits/sec
+[  8] 40.0-45.0 sec   305 KBytes   500 Kbits/sec
+[  3] 40.0-45.0 sec   305 KBytes   500 Kbits/sec
+[  4] 40.0-45.0 sec   305 KBytes   500 Kbits/sec
+[  5] 40.0-45.0 sec   305 KBytes   500 Kbits/sec
+[  6] 40.0-45.0 sec   305 KBytes   500 Kbits/sec
+[  7] 40.0-45.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 40.0-45.0 sec  1830 KBytes  2998 Kbits/sec
+[  8] 45.0-50.0 sec   305 KBytes   500 Kbits/sec
+[  3] 45.0-50.0 sec   305 KBytes   500 Kbits/sec
+[  4] 45.0-50.0 sec   305 KBytes   500 Kbits/sec
+[  5] 45.0-50.0 sec   305 KBytes   500 Kbits/sec
+[  6] 45.0-50.0 sec   305 KBytes   500 Kbits/sec
+[  7] 45.0-50.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 45.0-50.0 sec  1832 KBytes  3001 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=21 ttl=64 time=24400 ms
+64 bytes from 10.0.0.2: icmp_seq=22 ttl=64 time=23376 ms
+64 bytes from 10.0.0.2: icmp_seq=23 ttl=64 time=22375 ms
+64 bytes from 10.0.0.2: icmp_seq=24 ttl=64 time=22056 ms
+64 bytes from 10.0.0.2: icmp_seq=25 ttl=64 time=22059 ms
+64 bytes from 10.0.0.2: icmp_seq=26 ttl=64 time=22062 ms
+[  8] 50.0-55.0 sec   305 KBytes   500 Kbits/sec
+[  3] 50.0-55.0 sec   305 KBytes   500 Kbits/sec
+[  4] 50.0-55.0 sec   305 KBytes   500 Kbits/sec
+[  5] 50.0-55.0 sec   305 KBytes   500 Kbits/sec
+[  6] 50.0-55.0 sec   305 KBytes   500 Kbits/sec
+[  7] 50.0-55.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 50.0-55.0 sec  1832 KBytes  3001 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=28 ttl=64 time=22056 ms
+64 bytes from 10.0.0.2: icmp_seq=29 ttl=64 time=22054 ms
+64 bytes from 10.0.0.2: icmp_seq=30 ttl=64 time=22056 ms
+64 bytes from 10.0.0.2: icmp_seq=31 ttl=64 time=22054 ms
+[  8] 55.0-60.0 sec   305 KBytes   500 Kbits/sec
+[  3] 55.0-60.0 sec   305 KBytes   500 Kbits/sec
+[  4] 55.0-60.0 sec   305 KBytes   500 Kbits/sec
+[  5] 55.0-60.0 sec   305 KBytes   500 Kbits/sec
+[  6] 55.0-60.0 sec   305 KBytes   500 Kbits/sec
+[  7] 55.0-60.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 55.0-60.0 sec  1830 KBytes  2998 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=32 ttl=64 time=22061 ms
+64 bytes from 10.0.0.2: icmp_seq=33 ttl=64 time=22058 ms
+64 bytes from 10.0.0.2: icmp_seq=34 ttl=64 time=22054 ms
+64 bytes from 10.0.0.2: icmp_seq=35 ttl=64 time=22062 ms
+64 bytes from 10.0.0.2: icmp_seq=36 ttl=64 time=22059 ms
+[  8] 60.0-65.0 sec   305 KBytes   500 Kbits/sec
+[  3] 60.0-65.0 sec   305 KBytes   500 Kbits/sec
+[  4] 60.0-65.0 sec   305 KBytes   500 Kbits/sec
+[  5] 60.0-65.0 sec   305 KBytes   500 Kbits/sec
+[  6] 60.0-65.0 sec   305 KBytes   500 Kbits/sec
+[  7] 60.0-65.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 60.0-65.0 sec  1832 KBytes  3001 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=37 ttl=64 time=22059 ms
+64 bytes from 10.0.0.2: icmp_seq=38 ttl=64 time=22056 ms
+64 bytes from 10.0.0.2: icmp_seq=39 ttl=64 time=22057 ms
+64 bytes from 10.0.0.2: icmp_seq=40 ttl=64 time=22058 ms
+[  8] 65.0-70.0 sec   305 KBytes   500 Kbits/sec
+[  3] 65.0-70.0 sec   305 KBytes   500 Kbits/sec
+[  4] 65.0-70.0 sec   305 KBytes   500 Kbits/sec
+[  5] 65.0-70.0 sec   305 KBytes   500 Kbits/sec
+[  6] 65.0-70.0 sec   305 KBytes   500 Kbits/sec
+[  7] 65.0-70.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 65.0-70.0 sec  1832 KBytes  3001 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=42 ttl=64 time=22061 ms
+64 bytes from 10.0.0.2: icmp_seq=43 ttl=64 time=22057 ms
+64 bytes from 10.0.0.2: icmp_seq=44 ttl=64 time=22059 ms
+64 bytes from 10.0.0.2: icmp_seq=45 ttl=64 time=22060 ms
+[  8] 70.0-75.0 sec   305 KBytes   500 Kbits/sec
+[  3] 70.0-75.0 sec   305 KBytes   500 Kbits/sec
+[  4] 70.0-75.0 sec   305 KBytes   500 Kbits/sec
+[  5] 70.0-75.0 sec   305 KBytes   500 Kbits/sec
+[  6] 70.0-75.0 sec   305 KBytes   500 Kbits/sec
+[  7] 70.0-75.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 70.0-75.0 sec  1830 KBytes  2998 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=46 ttl=64 time=22057 ms
+64 bytes from 10.0.0.2: icmp_seq=47 ttl=64 time=22061 ms
+64 bytes from 10.0.0.2: icmp_seq=48 ttl=64 time=22058 ms
+64 bytes from 10.0.0.2: icmp_seq=49 ttl=64 time=22056 ms
+64 bytes from 10.0.0.2: icmp_seq=50 ttl=64 time=22060 ms
+[  8] 75.0-80.0 sec   305 KBytes   500 Kbits/sec
+[  3] 75.0-80.0 sec   305 KBytes   500 Kbits/sec
+[  4] 75.0-80.0 sec   305 KBytes   500 Kbits/sec
+[  5] 75.0-80.0 sec   305 KBytes   500 Kbits/sec
+[  6] 75.0-80.0 sec   305 KBytes   500 Kbits/sec
+[  7] 75.0-80.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 75.0-80.0 sec  1832 KBytes  3001 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=52 ttl=64 time=22059 ms
+64 bytes from 10.0.0.2: icmp_seq=53 ttl=64 time=22062 ms
+64 bytes from 10.0.0.2: icmp_seq=54 ttl=64 time=22060 ms
+64 bytes from 10.0.0.2: icmp_seq=55 ttl=64 time=22058 ms
+[  8] 80.0-85.0 sec   305 KBytes   500 Kbits/sec
+[  3] 80.0-85.0 sec   305 KBytes   500 Kbits/sec
+[  4] 80.0-85.0 sec   305 KBytes   500 Kbits/sec
+[  5] 80.0-85.0 sec   305 KBytes   500 Kbits/sec
+[  6] 80.0-85.0 sec   305 KBytes   500 Kbits/sec
+[  7] 80.0-85.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 80.0-85.0 sec  1832 KBytes  3001 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=57 ttl=64 time=22057 ms
+64 bytes from 10.0.0.2: icmp_seq=58 ttl=64 time=22055 ms
+64 bytes from 10.0.0.2: icmp_seq=59 ttl=64 time=22058 ms
+[  8] 85.0-90.0 sec   305 KBytes   500 Kbits/sec
+[  3] 85.0-90.0 sec   305 KBytes   500 Kbits/sec
+[  4] 85.0-90.0 sec   305 KBytes   500 Kbits/sec
+[  5] 85.0-90.0 sec   305 KBytes   500 Kbits/sec
+[  6] 85.0-90.0 sec   305 KBytes   500 Kbits/sec
+[  7] 85.0-90.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 85.0-90.0 sec  1830 KBytes  2998 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=61 ttl=64 time=22063 ms
+64 bytes from 10.0.0.2: icmp_seq=62 ttl=64 time=22061 ms
+64 bytes from 10.0.0.2: icmp_seq=63 ttl=64 time=22055 ms
+64 bytes from 10.0.0.2: icmp_seq=64 ttl=64 time=22059 ms
+64 bytes from 10.0.0.2: icmp_seq=65 ttl=64 time=22057 ms
+[  8] 90.0-95.0 sec   305 KBytes   500 Kbits/sec
+[  3] 90.0-95.0 sec   305 KBytes   500 Kbits/sec
+[  4] 90.0-95.0 sec   305 KBytes   500 Kbits/sec
+[  5] 90.0-95.0 sec   305 KBytes   500 Kbits/sec
+[  6] 90.0-95.0 sec   305 KBytes   500 Kbits/sec
+[  7] 90.0-95.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 90.0-95.0 sec  1832 KBytes  3001 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=66 ttl=64 time=22056 ms
+64 bytes from 10.0.0.2: icmp_seq=68 ttl=64 time=22058 ms
+64 bytes from 10.0.0.2: icmp_seq=69 ttl=64 time=22060 ms
+64 bytes from 10.0.0.2: icmp_seq=70 ttl=64 time=22056 ms
+[  8] 95.0-100.0 sec   305 KBytes   500 Kbits/sec
+[  3] 95.0-100.0 sec   305 KBytes   500 Kbits/sec
+[  4] 95.0-100.0 sec   305 KBytes   500 Kbits/sec
+[  5] 95.0-100.0 sec   305 KBytes   500 Kbits/sec
+[  6] 95.0-100.0 sec   305 KBytes   500 Kbits/sec
+[  7] 95.0-100.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 95.0-100.0 sec  1832 KBytes  3001 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=71 ttl=64 time=22057 ms
+64 bytes from 10.0.0.2: icmp_seq=72 ttl=64 time=22064 ms
+64 bytes from 10.0.0.2: icmp_seq=73 ttl=64 time=22060 ms
+64 bytes from 10.0.0.2: icmp_seq=75 ttl=64 time=22062 ms
+[  8] 100.0-105.0 sec   305 KBytes   500 Kbits/sec
+[  3] 100.0-105.0 sec   305 KBytes   500 Kbits/sec
+[  4] 100.0-105.0 sec   305 KBytes   500 Kbits/sec
+[  5] 100.0-105.0 sec   305 KBytes   500 Kbits/sec
+[  6] 100.0-105.0 sec   305 KBytes   500 Kbits/sec
+[  7] 100.0-105.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 100.0-105.0 sec  1830 KBytes  2998 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=76 ttl=64 time=22063 ms
+64 bytes from 10.0.0.2: icmp_seq=77 ttl=64 time=22059 ms
+64 bytes from 10.0.0.2: icmp_seq=78 ttl=64 time=22057 ms
+64 bytes from 10.0.0.2: icmp_seq=79 ttl=64 time=22060 ms
+64 bytes from 10.0.0.2: icmp_seq=80 ttl=64 time=22058 ms
+[  8] 105.0-110.0 sec   305 KBytes   500 Kbits/sec
+[  3] 105.0-110.0 sec   305 KBytes   500 Kbits/sec
+[  4] 105.0-110.0 sec   305 KBytes   500 Kbits/sec
+[  5] 105.0-110.0 sec   305 KBytes   500 Kbits/sec
+[  6] 105.0-110.0 sec   305 KBytes   500 Kbits/sec
+[  7] 105.0-110.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 105.0-110.0 sec  1832 KBytes  3001 Kbits/sec
+64 bytes from 10.0.0.2: icmp_seq=81 ttl=64 time=22061 ms
+64 bytes from 10.0.0.2: icmp_seq=83 ttl=64 time=22060 ms
+64 bytes from 10.0.0.2: icmp_seq=84 ttl=64 time=22058 ms
+[  8] 110.0-115.0 sec   305 KBytes   500 Kbits/sec
+[  3] 110.0-115.0 sec   305 KBytes   500 Kbits/sec
+[  4] 110.0-115.0 sec   305 KBytes   500 Kbits/sec
+[  5] 110.0-115.0 sec   305 KBytes   500 Kbits/sec
+[  6] 110.0-115.0 sec   305 KBytes   500 Kbits/sec
+[  7] 110.0-115.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 110.0-115.0 sec  1832 KBytes  3001 Kbits/sec
+[  8] 115.0-120.0 sec   305 KBytes   500 Kbits/sec
+[  3] 115.0-120.0 sec   305 KBytes   500 Kbits/sec
+[  4] 115.0-120.0 sec   305 KBytes   500 Kbits/sec
+[  5] 115.0-120.0 sec   305 KBytes   500 Kbits/sec
+[  6] 115.0-120.0 sec   305 KBytes   500 Kbits/sec
+[  7] 115.0-120.0 sec   305 KBytes   500 Kbits/sec
+[SUM] 115.0-120.0 sec  1830 KBytes  2998 Kbits/sec
+[  8]  0.0-120.0 sec  7325 KBytes   500 Kbits/sec
+[  8] Sent 25001 datagrams
+[  3]  0.0-120.0 sec  7325 KBytes   500 Kbits/sec
+[  3] Sent 25001 datagrams
+[  4]  0.0-120.0 sec  7325 KBytes   500 Kbits/sec
+[  4] Sent 25001 datagrams
+[  5]  0.0-120.0 sec  7325 KBytes   500 Kbits/sec
+[  5] Sent 25001 datagrams
+[  6]  0.0-120.0 sec  7325 KBytes   500 Kbits/sec
+[  6] Sent 25001 datagrams
+[  7]  0.0-120.0 sec  7325 KBytes   500 Kbits/sec
+[  7] Sent 25001 datagrams
+[SUM]  0.0-120.0 sec  43947 KBytes  3000 Kbits/sec
+[SUM] Sent 150006 datagrams
+[  4] WARNING: did not receive ack of last datagram after 10 tries.
+[  8] WARNING: did not receive ack of last datagram after 10 tries.
+[  6] WARNING: did not receive ack of last datagram after 10 tries.
+[  7] WARNING: did not receive ack of last datagram after 10 tries.
+[  5] WARNING: did not receive ack of last datagram after 10 tries.
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+64 bytes from 10.0.0.2: icmp_seq=94 ttl=64 time=22554 ms
+64 bytes from 10.0.0.2: icmp_seq=95 ttl=64 time=22059 ms
+64 bytes from 10.0.0.2: icmp_seq=96 ttl=64 time=22055 ms
+64 bytes from 10.0.0.2: icmp_seq=97 ttl=64 time=22059 ms
+64 bytes from 10.0.0.2: icmp_seq=104 ttl=64 time=21725 ms
+64 bytes from 10.0.0.2: icmp_seq=106 ttl=64 time=22060 ms
+64 bytes from 10.0.0.2: icmp_seq=107 ttl=64 time=22060 ms
+64 bytes from 10.0.0.2: icmp_seq=110 ttl=64 time=22056 ms
+64 bytes from 10.0.0.2: icmp_seq=113 ttl=64 time=21811 ms
+64 bytes from 10.0.0.2: icmp_seq=114 ttl=64 time=20920 ms
+64 bytes from 10.0.0.2: icmp_seq=115 ttl=64 time=20029 ms
+64 bytes from 10.0.0.2: icmp_seq=116 ttl=64 time=19008 ms
+64 bytes from 10.0.0.2: icmp_seq=117 ttl=64 time=18009 ms
+64 bytes from 10.0.0.2: icmp_seq=118 ttl=64 time=17011 ms
+64 bytes from 10.0.0.2: icmp_seq=119 ttl=64 time=16013 ms
+64 bytes from 10.0.0.2: icmp_seq=120 ttl=64 time=15014 ms
+64 bytes from 10.0.0.2: icmp_seq=121 ttl=64 time=13991 ms
+64 bytes from 10.0.0.2: icmp_seq=122 ttl=64 time=12969 ms
+64 bytes from 10.0.0.2: icmp_seq=123 ttl=64 time=11946 ms
+64 bytes from 10.0.0.2: icmp_seq=124 ttl=64 time=10924 ms
+64 bytes from 10.0.0.2: icmp_seq=125 ttl=64 time=9902 ms
+64 bytes from 10.0.0.2: icmp_seq=126 ttl=64 time=8902 ms
+64 bytes from 10.0.0.2: icmp_seq=127 ttl=64 time=7889 ms
+64 bytes from 10.0.0.2: icmp_seq=128 ttl=64 time=6890 ms
+64 bytes from 10.0.0.2: icmp_seq=129 ttl=64 time=5890 ms
+64 bytes from 10.0.0.2: icmp_seq=130 ttl=64 time=4885 ms
+64 bytes from 10.0.0.2: icmp_seq=131 ttl=64 time=3863 ms
+64 bytes from 10.0.0.2: icmp_seq=132 ttl=64 time=2864 ms
+64 bytes from 10.0.0.2: icmp_seq=133 ttl=64 time=1846 ms
+64 bytes from 10.0.0.2: icmp_seq=134 ttl=64 time=828 ms
+64 bytes from 10.0.0.2: icmp_seq=135 ttl=64 time=0.062 ms
+64 bytes from 10.0.0.2: icmp_seq=136 ttl=64 time=0.108 ms
+64 bytes from 10.0.0.2: icmp_seq=137 ttl=64 time=0.080 ms
+64 bytes from 10.0.0.2: icmp_seq=138 ttl=64 time=0.070 ms
+64 bytes from 10.0.0.2: icmp_seq=139 ttl=64 time=0.071 ms
+64 bytes from 10.0.0.2: icmp_seq=140 ttl=64 time=0.068 ms
+64 bytes from 10.0.0.2: icmp_seq=141 ttl=64 time=0.067 ms
+64 bytes from 10.0.0.2: icmp_seq=142 ttl=64 time=0.069 ms
+64 bytes from 10.0.0.2: icmp_seq=143 ttl=64 time=0.069 ms
+^C
+--- 10.0.0.2 ping statistics ---
+143 packets transmitted, 101 received, 29% packet loss, time 143657ms
+rtt min/avg/max/mdev = 0.062/17818.746/24400.882/7678.385 ms, pipe 24

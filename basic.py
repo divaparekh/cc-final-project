@@ -28,7 +28,7 @@ class Basic_Topo(Topo):
         bw_high = float(sys.argv[1])
         bw_low = float(sys.argv[2])
 
-        self.addLink(h1, s1, bw=bw_high)# , max_queue_size=100)
+        self.addLink(h1, s1, bw=bw_high, max_queue_size=100)
         self.addLink(s1, s2, bw=bw_low)
         self.addLink(s2, h2, bw=bw_high)
 
