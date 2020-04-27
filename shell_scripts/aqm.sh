@@ -37,5 +37,9 @@ else
 
 fi
 
-sudo tc qdisc replace dev s1-eth2 root tbf rate .5mbit burst 32kbit latency 22000000000ms
+bottleneck_var="$2"
+units="mbit"
+bottleneck=$bottleneck_var$units
+
+sudo tc qdisc replace dev s1-eth2 root tbf rate $bottleneck burst 32kbit latency 22000000000ms
 sudo tc qdisc show
