@@ -5,16 +5,16 @@ Flow number: 2
 From 10.0.0.1:36735
 To    10.0.0.2:10002
 ----------------------------------------------------------
-Total time               =     14.999349 s
+Total time               =     60.174456 s
 Total packets            =          7370
-Minimum delay            =      0.000000 s
-Maximum delay            =      0.000000 s
-Average delay            =      0.000000 s
-Average jitter           =      0.000000 s
-Delay standard deviation =      0.000000 s
+Minimum delay            =      0.012665 s
+Maximum delay            =     45.201042 s
+Average delay            =     22.474357 s
+Average jitter           =      0.008065 s
+Delay standard deviation =     12.874416 s
 Bytes received           =       2211000
-Average bitrate          =   1179.251180 Kbit/s
-Average packet rate      =    491.354658 pkt/s
+Average bitrate          =    293.945325 Kbit/s
+Average packet rate      =    122.477219 pkt/s
 Packets dropped          =             0 (0.00 %)
 Average loss-burst size  =      0.000000 pkt
 ----------------------------------------------------------
@@ -23,16 +23,16 @@ Flow number: 3
 From 10.0.0.1:33294
 To    10.0.0.2:10003
 ----------------------------------------------------------
-Total time               =     14.999390 s
+Total time               =     60.191009 s
 Total packets            =          7359
-Minimum delay            =      0.000000 s
-Maximum delay            =      0.000000 s
-Average delay            =      0.000000 s
-Average jitter           =      0.000000 s
-Delay standard deviation =      0.000000 s
+Minimum delay            =      0.000117 s
+Maximum delay            =     45.196141 s
+Average delay            =     22.486473 s
+Average jitter           =      0.008047 s
+Delay standard deviation =     12.870007 s
 Bytes received           =       2207700
-Average bitrate          =   1177.487885 Kbit/s
-Average packet rate      =    490.619952 pkt/s
+Average bitrate          =    293.425884 Kbit/s
+Average packet rate      =    122.260785 pkt/s
 Packets dropped          =             0 (0.00 %)
 Average loss-burst size  =      0.000000 pkt
 ----------------------------------------------------------
@@ -41,16 +41,16 @@ Flow number: 1
 From 10.0.0.1:37318
 To    10.0.0.2:10001
 ----------------------------------------------------------
-Total time               =     14.999609 s
+Total time               =     59.980913 s
 Total packets            =          7371
-Minimum delay            =      0.000000 s
-Maximum delay            =      0.000000 s
-Average delay            =      0.000000 s
-Average jitter           =      0.000000 s
-Delay standard deviation =      0.000000 s
+Minimum delay            =      0.362199 s
+Maximum delay            =     45.344754 s
+Average delay            =     23.060859 s
+Average jitter           =      0.008000 s
+Delay standard deviation =     12.873437 s
 Bytes received           =       2211300
-Average bitrate          =   1179.390743 Kbit/s
-Average packet rate      =    491.412809 pkt/s
+Average bitrate          =    294.933823 Kbit/s
+Average packet rate      =    122.889093 pkt/s
 Packets dropped          =             0 (0.00 %)
 Average loss-burst size  =      0.000000 pkt
 ----------------------------------------------------------
@@ -59,16 +59,16 @@ __________________________________________________________
 ****************  TOTAL RESULTS   ******************
 __________________________________________________________
 Number of flows          =             3
-Total time               =     15.094277 s
+Total time               =     60.434509 s
 Total packets            =         22100
-Minimum delay            =      0.000000 s
-Maximum delay            =      0.000000 s
-Average delay            =      0.000000 s
-Average jitter           =      0.000000 s
-Delay standard deviation =      0.000000 s
+Minimum delay            =      0.000117 s
+Maximum delay            =     45.344754 s
+Average delay            =     22.674007 s
+Average jitter           =      0.012524 s
+Delay standard deviation =     12.875531 s
 Bytes received           =       6630000
-Average bitrate          =   3513.914578 Kbit/s
-Average packet rate      =   1464.131074 pkt/s
+Average bitrate          =    877.644261 Kbit/s
+Average packet rate      =    365.685109 pkt/s
 Packets dropped          =             0 (0.00 %)
 Average loss-burst size  =             0 pkt
 Error lines              =             0
