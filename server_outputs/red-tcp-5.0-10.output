@@ -1,0 +1,75 @@
+ITGDec version 2.8.1 (r1023)
+Compile-time options: bursty multiport
+----------------------------------------------------------
+Flow number: 2
+From 10.0.0.1:52090
+To    10.0.0.2:10002
+----------------------------------------------------------
+Total time               =     23.585080 s
+Total packets            =          1621
+Minimum delay            =      0.000055 s
+Maximum delay            =     16.550939 s
+Average delay            =      8.211466 s
+Average jitter           =      0.018637 s
+Delay standard deviation =      4.583781 s
+Bytes received           =        486300
+Average bitrate          =    164.951741 Kbit/s
+Average packet rate      =     68.729892 pkt/s
+Packets dropped          =             0 (0.00 %)
+Average loss-burst size  =      0.000000 pkt
+----------------------------------------------------------
+----------------------------------------------------------
+Flow number: 1
+From 10.0.0.1:55036
+To    10.0.0.2:10001
+----------------------------------------------------------
+Total time               =     24.304524 s
+Total packets            =          1711
+Minimum delay            =      0.000090 s
+Maximum delay            =     16.086997 s
+Average delay            =      8.684398 s
+Average jitter           =      0.018765 s
+Delay standard deviation =      4.532349 s
+Bytes received           =        513300
+Average bitrate          =    168.956199 Kbit/s
+Average packet rate      =     70.398416 pkt/s
+Packets dropped          =             0 (0.00 %)
+Average loss-burst size  =      0.000000 pkt
+----------------------------------------------------------
+----------------------------------------------------------
+Flow number: 3
+From 10.0.0.1:32840
+To    10.0.0.2:10003
+----------------------------------------------------------
+Total time               =     37.309543 s
+Total packets            =          2431
+Minimum delay            =      0.009076 s
+Maximum delay            =     24.626705 s
+Average delay            =     12.846312 s
+Average jitter           =      0.019844 s
+Delay standard deviation =      7.207746 s
+Bytes received           =        729300
+Average bitrate          =    156.378222 Kbit/s
+Average packet rate      =     65.157593 pkt/s
+Packets dropped          =             0 (0.00 %)
+Average loss-burst size  =      0.000000 pkt
+----------------------------------------------------------
+
+__________________________________________________________
+****************  TOTAL RESULTS   ******************
+__________________________________________________________
+Number of flows          =             3
+Total time               =     37.329175 s
+Total packets            =          5763
+Minimum delay            =      0.000055 s
+Maximum delay            =     24.626705 s
+Average delay            =     10.306989 s
+Average jitter           =      0.028925 s
+Delay standard deviation =      6.217741 s
+Bytes received           =       1728900
+Average bitrate          =    370.519841 Kbit/s
+Average packet rate      =    154.383267 pkt/s
+Packets dropped          =             0 (0.00 %)
+Average loss-burst size  =             0 pkt
+Error lines              =             0
+----------------------------------------------------------
