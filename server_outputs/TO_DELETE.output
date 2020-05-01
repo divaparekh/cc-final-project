@@ -2,55 +2,55 @@ ITGDec version 2.8.1 (r1023)
 Compile-time options: bursty multiport
 ----------------------------------------------------------
 Flow number: 1
-From 10.0.0.1:34635
+From 10.0.0.1:37549
 To    10.0.0.2:10001
 ----------------------------------------------------------
-Total time               =     14.999418 s
-Total packets            =          7299
+Total time               =     14.999671 s
+Total packets            =          7414
 Minimum delay            =      0.000000 s
 Maximum delay            =      0.000000 s
 Average delay            =      0.000000 s
 Average jitter           =      0.000000 s
 Delay standard deviation =      0.000000 s
-Bytes received           =       2189700
-Average bitrate          =   1167.885314 Kbit/s
-Average packet rate      =    486.618881 pkt/s
+Bytes received           =       2224200
+Average bitrate          =   1186.266019 Kbit/s
+Average packet rate      =    494.277508 pkt/s
 Packets dropped          =             0 (0.00 %)
 Average loss-burst size  =      0.000000 pkt
 ----------------------------------------------------------
 ----------------------------------------------------------
 Flow number: 2
-From 10.0.0.1:43093
+From 10.0.0.1:44308
 To    10.0.0.2:10002
 ----------------------------------------------------------
-Total time               =     14.999405 s
-Total packets            =          7305
+Total time               =     14.999674 s
+Total packets            =          7414
 Minimum delay            =      0.000000 s
 Maximum delay            =      0.000000 s
 Average delay            =      0.000000 s
 Average jitter           =      0.000000 s
 Delay standard deviation =      0.000000 s
-Bytes received           =       2191500
-Average bitrate          =   1168.846364 Kbit/s
-Average packet rate      =    487.019318 pkt/s
+Bytes received           =       2224200
+Average bitrate          =   1186.265782 Kbit/s
+Average packet rate      =    494.277409 pkt/s
 Packets dropped          =             0 (0.00 %)
 Average loss-burst size  =      0.000000 pkt
 ----------------------------------------------------------
 ----------------------------------------------------------
 Flow number: 3
-From 10.0.0.1:52092
+From 10.0.0.1:54193
 To    10.0.0.2:10003
 ----------------------------------------------------------
-Total time               =     14.999381 s
-Total packets            =          7300
+Total time               =     14.999795 s
+Total packets            =          7413
 Minimum delay            =      0.000000 s
 Maximum delay            =      0.000000 s
 Average delay            =      0.000000 s
 Average jitter           =      0.000000 s
 Delay standard deviation =      0.000000 s
-Bytes received           =       2190000
-Average bitrate          =   1168.048201 Kbit/s
-Average packet rate      =    486.686751 pkt/s
+Bytes received           =       2223900
+Average bitrate          =   1186.096210 Kbit/s
+Average packet rate      =    494.206754 pkt/s
 Packets dropped          =             0 (0.00 %)
 Average loss-burst size  =      0.000000 pkt
 ----------------------------------------------------------
@@ -59,16 +59,16 @@ __________________________________________________________
 ****************  TOTAL RESULTS   ******************
 __________________________________________________________
 Number of flows          =             3
-Total time               =     15.112678 s
-Total packets            =         21904
+Total time               =     15.138680 s
+Total packets            =         22241
 Minimum delay            =      0.000000 s
 Maximum delay            =      0.000000 s
 Average delay            =      0.000000 s
 Average jitter           =      0.000000 s
 Delay standard deviation =      0.000000 s
-Bytes received           =       6571200
-Average bitrate          =   3478.509897 Kbit/s
-Average packet rate      =   1449.379124 pkt/s
+Bytes received           =       6672300
+Average bitrate          =   3525.961312 Kbit/s
+Average packet rate      =   1469.150547 pkt/s
 Packets dropped          =             0 (0.00 %)
 Average loss-burst size  =             0 pkt
 Error lines              =             0
