@@ -1,0 +1,61 @@
+------------------------------------------------------------
+Server listening on UDP port 5001 with pid 12678
+Receiving 600 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 36037
+[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 47290
+[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 52302
+[  6] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 40928
+[  7] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 54763
+[  8] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 60524
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS
+[  8] 0.00-5.00 sec  2.93 KBytes  4.80 Kbits/sec  46.735 ms    0/    5 (0%) 175.492/52.214/257.879/171.136 ms    1 pps
+[  3] 0.00-5.00 sec  3.52 KBytes  5.76 Kbits/sec   6.335 ms    0/    6 (0%)  8.815/ 0.055/52.248/21.279 ms    1 pps
+[  4] 0.00-5.00 sec  3.52 KBytes  5.76 Kbits/sec  25.677 ms    0/    6 (0%) 43.028/ 0.043/257.534/105.086 ms    1 pps
+[  5] 0.00-5.00 sec  3.52 KBytes  5.76 Kbits/sec  17.606 ms    0/    6 (0%) 25.906/ 0.017/154.943/63.215 ms    1 pps
+[  6] 0.00-5.00 sec  3.52 KBytes  5.76 Kbits/sec  16.297 ms    0/    6 (0%) 43.262/ 0.021/155.208/92.072 ms    1 pps
+[  7] 0.00-5.00 sec  3.52 KBytes  5.76 Kbits/sec  16.618 ms    0/    6 (0%) 154.935/52.516/257.668/68.995 ms    1 pps
+[SUM] 0.00-5.00 sec  20.5 KBytes  33.6 Kbits/sec    7 pps
+[  3] 5.00-10.00 sec  2.93 KBytes  4.80 Kbits/sec  10.134 ms    0/    5 (0%) 10.491/ 0.043/52.147/23.292 ms    1 pps
+[  5] 5.00-10.00 sec  2.93 KBytes  4.80 Kbits/sec  39.659 ms    0/    5 (0%) 82.510/ 0.017/257.530/118.628 ms    1 pps
+[  6] 5.00-10.00 sec  2.93 KBytes  4.80 Kbits/sec  20.634 ms    0/    5 (0%) 20.888/ 0.016/52.183/23.322 ms    1 pps
+[  4] 5.00-10.00 sec  2.93 KBytes  4.80 Kbits/sec  27.767 ms    0/    5 (0%) 20.919/ 0.043/52.237/28.536 ms    1 pps
+[  7] 5.00-10.00 sec  2.93 KBytes  4.80 Kbits/sec  28.183 ms    0/    5 (0%) 134.319/ 0.038/154.893/72.870 ms    1 pps
+[  8] 5.00-10.00 sec  3.52 KBytes  5.76 Kbits/sec  42.676 ms    0/    6 (0%) 283.361/154.850/257.645/41.927 ms    1 pps
+[SUM] 5.00-10.00 sec  18.2 KBytes  29.8 Kbits/sec    6 pps
+[  3] 10.00-15.00 sec  2.93 KBytes  4.80 Kbits/sec  13.268 ms    0/    5 (0%) 10.513/ 0.050/52.272/23.351 ms    1 pps
+[  5] 10.00-15.00 sec  2.93 KBytes  4.80 Kbits/sec  33.926 ms    0/    5 (0%) 10.461/ 0.016/52.146/23.305 ms    1 pps
+[  6] 10.00-15.00 sec  2.93 KBytes  4.80 Kbits/sec  48.666 ms    0/    5 (0%) 61.981/ 0.016/257.592/111.658 ms    1 pps
+[  7] 10.00-15.00 sec  2.93 KBytes  4.80 Kbits/sec  56.479 ms    0/    5 (0%) 134.325/ 0.053/257.486/102.855 ms    1 pps
+[  4] 10.00-15.00 sec  2.93 KBytes  4.80 Kbits/sec  49.891 ms    0/    5 (0%) 72.447/ 0.040/154.970/84.824 ms    1 pps
+[  8] 10.00-15.00 sec  2.93 KBytes  4.80 Kbits/sec  54.286 ms    0/    5 (0%) 268.001/154.817/257.671/56.269 ms    1 pps
+[SUM] 10.00-15.00 sec  17.6 KBytes  28.8 Kbits/sec    6 pps
+[  3] 15.00-20.00 sec  2.93 KBytes  4.80 Kbits/sec   9.622 ms    0/    5 (0%)  0.049/ 0.016/ 0.077/ 0.030 ms    1 pps
+[  4] 15.00-20.00 sec  2.93 KBytes  4.80 Kbits/sec  43.613 ms    0/    5 (0%) 31.024/ 0.016/154.870/ 0.022 ms    1 pps
+[  6] 15.00-20.00 sec  2.93 KBytes  4.80 Kbits/sec  58.014 ms    0/    5 (0%) 41.422/ 0.012/154.845/67.299 ms    1 pps
+[  5] 15.00-20.00 sec  2.93 KBytes  4.80 Kbits/sec  56.540 ms    0/    5 (0%) 72.402/ 0.028/154.884/78.234 ms    1 pps
+[  7] 15.00-20.00 sec  2.93 KBytes  4.80 Kbits/sec  57.561 ms    0/    5 (0%) 103.667/52.154/154.824/56.221 ms    1 pps
+[  8] 15.00-20.00 sec  2.93 KBytes  4.80 Kbits/sec  39.317 ms    0/    5 (0%) 309.021/257.509/257.535/ 0.010 ms    1 pps
+[SUM] 15.00-20.00 sec  17.6 KBytes  28.8 Kbits/sec    6 pps
+[  7] 20.00-25.00 sec  2.93 KBytes  4.80 Kbits/sec  52.631 ms    0/    5 (0%) 165.325/52.214/154.940/45.921 ms    1 pps
+[  8] 20.00-25.00 sec  2.93 KBytes  4.80 Kbits/sec  28.484 ms    0/    5 (0%) 309.058/257.515/257.590/ 0.026 ms    1 pps
+[  3] 20.00-25.00 sec  3.52 KBytes  5.76 Kbits/sec   6.537 ms    0/    6 (0%)  0.054/ 0.016/ 0.066/ 0.008 ms    1 pps
+[  4] 20.00-25.00 sec  3.52 KBytes  5.76 Kbits/sec  29.620 ms    0/    6 (0%)  0.052/ 0.015/ 0.064/ 0.021 ms    1 pps
+[  6] 20.00-25.00 sec  3.52 KBytes  5.76 Kbits/sec  56.134 ms    0/    6 (0%) 26.125/ 0.012/52.207/28.566 ms    1 pps
+[  5] 20.00-25.00 sec  3.52 KBytes  5.76 Kbits/sec  71.784 ms    0/    6 (0%) 69.022/ 0.035/154.881/75.962 ms    1 pps
+[SUM] 20.00-25.00 sec  19.9 KBytes  32.6 Kbits/sec    7 pps
+[  3] 25.00-30.00 sec  2.93 KBytes  4.80 Kbits/sec  10.658 ms    0/    5 (0%) 10.498/ 0.042/52.219/23.329 ms    1 pps
+[  3] 0.00-30.69 sec  18.8 KBytes  5.00 Kbits/sec  10.658 ms    0/   32 (0%)  6.585/ 0.016/52.272/17.525 ms    1 pps
+[  4] 25.00-30.00 sec  2.93 KBytes  4.80 Kbits/sec  21.458 ms    0/    5 (0%)  0.059/ 0.014/ 0.071/ 0.022 ms    1 pps
+[  4] 0.00-30.69 sec  18.8 KBytes  5.00 Kbits/sec  21.458 ms    0/   32 (0%) 21.046/ 0.014/257.534/58.363 ms    1 pps
+[  6] 25.00-30.00 sec  2.93 KBytes  4.80 Kbits/sec  52.164 ms    0/    5 (0%) 20.885/ 0.016/52.157/28.543 ms    1 pps
+[  6] 0.00-30.69 sec  18.8 KBytes  5.00 Kbits/sec  52.164 ms    0/   32 (0%) 34.061/ 0.012/257.592/64.406 ms    1 pps
+[  5] 25.00-30.00 sec  2.93 KBytes  4.80 Kbits/sec  80.122 ms    0/    5 (0%) 82.841/ 0.015/154.881/63.221 ms    1 pps
+[  5] 0.00-30.75 sec  18.8 KBytes  5.00 Kbits/sec  80.122 ms    0/   32 (0%) 50.112/ 0.015/257.530/73.510 ms    1 pps
+[  8] 25.00-30.00 sec  3.52 KBytes  5.76 Kbits/sec  36.007 ms    0/    6 (0%) 266.250/154.855/257.599/53.014 ms    1 pps
+[  8] 0.00-30.85 sec  18.8 KBytes  4.98 Kbits/sec  36.007 ms    0/   32 (0%) 228.681/52.214/257.879/75.535 ms    1 pps
+[  7] 25.00-30.00 sec  3.52 KBytes  5.76 Kbits/sec  79.544 ms    0/    6 (0%) 171.887/ 0.029/257.536/104.894 ms    1 pps
+[SUM] 25.00-30.00 sec  18.8 KBytes  30.7 Kbits/sec    7 pps
+[  7] 0.00-30.95 sec  18.8 KBytes  4.96 Kbits/sec  79.544 ms    0/   32 (0%) 124.295/ 0.029/257.668/76.547 ms    1 pps
+[SUM] 0.00-30.95 sec   112 KBytes  29.8 Kbits/sec    6 pps
