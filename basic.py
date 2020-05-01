@@ -57,7 +57,7 @@ class Basic_Topo(Topo):
 
             for transport in ['tcp', 'udp']:
 
-                for trial in range(1 + 10, num_trials + 1 + 10):
+                for trial in range(1, num_trials + 1):
                     client_cmd = "py net.get('h1').cmd('./D-ITG-2.8.1-r1023/bin/ITGSend cc-final-project/shell_scripts/multiflow-" + transport + ".sh -l ./cc-final-project/server_outputs/TO_DELETE.log -x ./cc-final-project/server_outputs/" + qdisc + "-" + transport + "-" + str(bw_high) + "-" + str(trial) + ".log')\n"
                     source_file.write(client_cmd)
 
