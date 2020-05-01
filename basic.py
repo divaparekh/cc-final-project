@@ -39,21 +39,25 @@ class Basic_Topo(Topo):
         server_cmd = "py net.get('h2').cmd('./D-ITG-2.8.1-r1023/bin/ITGRecv &')\n"
         source_file.write(server_cmd)
 
-        for qdisc in ['pie']: #['noqueue','codel','fq_codel', 'pie]:
+        for qdisc in ['noqueue','codel','fq_codel', 'pie', 'red']:
 
-            source_file.write("py net.get('s1').cmdPrint('sudo tc qdisc replace dev s1-eth1 root " + qdisc + "')\n")
-            source_file.write("py net.get('s2').cmdPrint('sudo tc qdisc replace dev s2-eth1 root " + qdisc + "')\n")
-            source_file.write("py net.get('s2').cmdPrint('sudo tc qdisc replace dev s2-eth2 root " + qdisc + "')\n")
+            isRed = False
+            if qdisc == 'red':
+                qdisc_hi = 'red limit 30000 avpkt 1000 burst 10 bandwidth ' + str(bw_high) + "Mbit"
+                qdisc_lo = 'red limit 30000 avpkt 1000 burst 10 bandwidth ' + str(bw_low) + "Mbit"
+                isRed = True
+            else:
+                qdisc_hi = qdisc
+                qdisc_lo = qdisc
+
+            source_file.write("py net.get('s1').cmdPrint('sudo tc qdisc replace dev s1-eth1 root " + qdisc_hi + "')\n")
+            source_file.write("py net.get('s2').cmdPrint('sudo tc qdisc replace dev s2-eth1 root " + qdisc_lo + "')\n")
+            source_file.write("py net.get('s2').cmdPrint('sudo tc qdisc replace dev s2-eth2 root " + qdisc_hi + "')\n")
             source_file.write("py net.get('s1').cmdPrint('sudo tc qdisc replace dev s1-eth2 root tbf rate " + str(bw_low) + "mbit burst 32kbit latency 22000000000ms')\n")
-            
+
             for transport in ['tcp', 'udp']:
-                '''
-                for bw_high in [1.0, 2.5, 5.0, 10.0]:
-                    bw_low = float(bw_high/10.0)
-                '''
 
-
-                for trial in range(1, num_trials + 1):
+                for trial in range(1 + 10, num_trials + 1 + 10):
                     client_cmd = "py net.get('h1').cmd('./D-ITG-2.8.1-r1023/bin/ITGSend cc-final-project/shell_scripts/multiflow-" + transport + ".sh -l ./cc-final-project/server_outputs/TO_DELETE.log -x ./cc-final-project/server_outputs/" + qdisc + "-" + transport + "-" + str(bw_high) + "-" + str(trial) + ".log')\n"
                     source_file.write(client_cmd)
 
