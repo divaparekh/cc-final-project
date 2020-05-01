@@ -27,7 +27,7 @@ sudo python mininet/custom/basic.py $1 5
 sudo mn -c
 sudo python mininet/custom/basic.py $1 10
 sudo mn -c
-sudo python3 cc-final-project/convert_ditg_logs.py
+sudo python cc-final-project/convert_ditg_logs.py
 sudo rm ~/cc-final-project/server_outputs/*.log
 ~/.local/bin/jupyter-notebook password
 ~/.local/bin/jupyter-notebook cc-final-project/run-group9.ipynb --ip=0.0.0.0
